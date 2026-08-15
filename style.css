@@ -180,3 +180,62 @@ input:focus, textarea:focus {
 .btn:hover {
     opacity: 0.9;
 }
+.project-tag {
+  display: inline-block;
+  background-color: #0284c7;
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.project-techs {
+  display: flex;
+  gap: 8px;
+  margin: 12px 0;
+  flex-wrap: wrap;
+}
+
+.project-techs span {
+  background-color: #0f172a;
+  color: #94a3b8;
+  font-size: 0.75rem;
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: 1px solid #334155;
+}
+
+.project-links {
+  display: flex;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.project-links a {
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 8px 14px;
+  border-radius: 6px;
+  transition: all 0.2s;
+}
+
+.btn-demo {
+  background-color: #38bdf8;
+  color: #0f172a !important;
+}
+
+.btn-demo:hover {
+  opacity: 0.9;
+}
+
+.btn-code {
+  background-color: #334155;
+  color: #f8fafc !important;
+}
+
+.btn-code:hover {
+  background-color: #475569;
+}
