@@ -1,107 +1,58 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio | Développeur Full Stack</title>
-    <link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolio | Projets Informatiques</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
+	<main class="container">
+		<header class="hero">
+			<h1>Mes Réalisations &amp; Projets</h1>
+			<p class="subtitle">Cloud Computing, Automatisation &amp; Développement Web</p>
+		</header>
 
-    <nav class="navbar">
-        <div class="logo">Zakaria<span>.dev</span></div>
-        <ul class="nav-links">
-            <li><a href="#about">À propos</a></li>
-            <li><a href="#projects">Projets</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+		<section id="projets" class="projects-section">
+			<div class="projects-grid">
+				<!-- Projet 1: TaskMaster -->
+				<div class="project-card">
+					<div class="project-header">
+						<span class="project-tag">Productivité</span>
+						<h3>TaskMaster</h3>
+					</div>
+					<p>Application de gestion de tâches avec interface dynamique et persistance des données.</p>
+					<div class="project-techs">
+						<span>JavaScript</span>
+						<span>HTML5</span>
+						<span>CSS3</span>
+					</div>
+					<div class="project-links">
+						<a href="https://alhajouizakaria7-oss.github.io/taskmaster-app/" target="_blank" rel="noopener noreferrer">Voir Démo</a>
+						<a href="https://github.com/alhajouizakaria7-oss/taskmaster-app" target="_blank" rel="noopener noreferrer">GitHub</a>
+					</div>
+				</div>
 
-    <main class="container">
-        <!-- Hero Section -->
-        <section id="about" class="hero-card">
-            <h1>Développeur Full Stack</h1>
-            <p class="subtitle">Passionné par le développement web moderne, Python et l'architecture logicielle.</p>
-            <div class="skills">
-                <span class="tag">HTML5 / CSS3</span>
-                <span class="tag">JavaScript</span>
-                <span class="tag">Python</span>
-                <span class="tag">Git & GitHub</span>
-            </div>
-        </section>
-
-        <!-- Section Projets -->
-        <section id="projets" class="projects-section">
-      <h2 class="section-title">Mes Projets</h2>
-      <div class="projects-grid">
-
-        <!-- Projet 1 : BacVault -->
-        <div class="project-card">
-          <div class="project-header">
-            <span class="project-tag">Plateforme Élite</span>
-            <h3>BacVault Hub</h3>
-          </div>
-          <p>Espace privé de révision : fiches de synthèse denses, masterclasses YouTube et assistant d'entraide interactif.</p>
-          <div class="project-techs">
-            <span>HTML5</span>
-            <span>CSS3</span>
-            <span>JavaScript</span>
-          </div>
-          <div class="project-links">
-            <a href="https://alhajouizakaria7-oss.github.io/bac-vault/" target="_blank" class="btn-demo">Démo Live</a>
-            <a href="https://github.com/alhajouizakaria7-oss/bac-vault" target="_blank" class="btn-code">GitHub</a>
-          </div>
-        </div>
-
-        <!-- Projet 2 : TaskMaster -->
-        <div class="project-card">
-          <div class="project-header">
-            <span class="project-tag">Productivité</span>
-            <h3>TaskMaster</h3>
-          </div>
-          <p>Gestionnaire de tâches avec persistance locale des données via LocalStorage.</p>
-          <div class="project-techs">
-            <span>JavaScript</span>
-            <span>DOM</span>
-            <span>LocalStorage</span>
-          </div>
-          <div class="project-links">
-            <a href="https://alhajouizakaria7-oss.github.io/taskmaster-app/" target="_blank" class="btn-demo">Démo Live</a>
-            <a href="https://github.com/alhajouizakaria7-oss/taskmaster-app" target="_blank" class="btn-code">GitHub</a>
-          </div>
-        </div>
-
-        <!-- Projet 3 : Scripts Python -->
-        <div class="project-card">
-          <div class="project-header">
-            <span class="project-tag">Algorithmique</span>
-            <h3>Scripts & Automatisation</h3>
-          </div>
-          <p>Scripts Python dédiés aux algorithmes fondamentaux et à la manipulation de données.</p>
-          <div class="project-techs">
-            <span>Python</span>
-            <span>Algorithmique</span>
-          </div>
-          <div class="project-links">
-            <a href="https://github.com/alhajouizakaria7-oss" target="_blank" class="btn-code">Voir Repo</a>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-        <!-- Section Contact -->
-        <section id="contact" class="contact-section">
-            <h2 class="section-title">Me Contacter</h2>
-            <form id="contact-form">
-                <input type="text" placeholder="Votre Nom" required>
-                <input type="email" placeholder="Votre Email" required>
-                <textarea rows="4" placeholder="Votre Message" required></textarea>
-                <button type="submit" class="btn">Envoyer le message</button>
-            </form>
-        </section>
-    </main>
-
-    <script src="script.js"></script>
+				<!-- Projet 2: Cloud Lab -->
+				<div class="project-card">
+					<div class="project-header">
+						<span class="project-tag">Cloud &amp; DevOps</span>
+						<h3>Cloud Lab</h3>
+					</div>
+					<p>Suite d'outils de surveillance de serveurs avec Bash, microservice Python et Docker.</p>
+					<div class="project-techs">
+						<span>Python</span>
+						<span>Bash</span>
+						<span>Docker</span>
+						<span>CI/CD</span>
+					</div>
+					<div class="project-links">
+						<a href="https://github.com/alhajouizakaria7-oss/cloud-lab" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<script src="script.js"></script>
 </body>
 </html>
